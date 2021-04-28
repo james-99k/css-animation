@@ -260,6 +260,9 @@ a {
     position: absolute;
     bottom: 15px;
     width: 100%;
+    animation-name: feet;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
 }
 .globe .bird .body .feet:before, .globe .bird .body .feet:after {
     position: absolute;
@@ -275,6 +278,42 @@ a {
 }
 .globe .bird .body .feet:after {
     right: 40px;
+}
+
+@keyframes feet {
+    0% {
+        margin-bottom: 1px;
+   }
+   10% {
+       margin-bottom: 2px;
+   }
+   20% {
+       margin-bottom: 3px;
+   }
+   30% {
+       margin-bottom: 4px;
+   }
+   40% {
+       margin-bottom: 5px;
+   }
+   50% {
+       margin-left: 1px;
+   }
+   60% {
+       margin-left: 2px;
+   }
+   70% {
+       margin-left: 3px;
+   }
+   80% {
+       margin-right: 1px;
+   }
+   90% {
+       margin-right: 2px;
+   }
+   100% {
+       margin-right: 3px;
+   }
 }
 
    /* Clouds and sky */
