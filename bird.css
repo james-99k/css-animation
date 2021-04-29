@@ -566,7 +566,7 @@ a {
     top: -20px;
     z-index: -1;
     animation-name: cloud;
-    animation-duration: 7s;
+    animation-duration: 40s;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
 
@@ -577,7 +577,7 @@ a {
     -ms-transform: scale(0.6);
     transform: scale(0.6);
     animation-name: cloud;
-    animation-duration: 8s;
+    animation-duration: 30s;
     animation-timing-function: ease-in;
 }
 .globe .cloud:before, .globe .cloud:after {
@@ -605,36 +605,36 @@ a {
 
 @keyframes cloud {
     0% {
-         margin-left: 5px;
+         margin-left: -150px;
     }
     10% {
-        margin-left: 15px;
+        margin-left: -100px;
     }
     20% {
-        margin-left: 25px;
+        mmargin-left: -50px;
     }
     30% {
-        margin-left: 35px;
+        margin-left: 0px;
     }
     40% {
-        margin-left: 45px;
+        margin-left: 50px;
     }
     50% {
-        margin-left: 55px;
+        margin-left: 100px;
     }
     60% {
-        margin-left: 65px;
+        margin-left: 150px;
     }
     70% {
-        margin-left: 75px;
+        margin-left: 200px;
     }
     80% {
-        margin-left: 85px;
+        margin-left: 250px;
     }
     90% {
-        margin-left: 95px;
+        margin-left: 300px;
     }
     100% {
-        margin-left: 105px;
+        margin-left: 350px;
     }
 }
